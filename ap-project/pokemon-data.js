@@ -35,5 +35,6 @@ const getPokemonData = async term => {
 }
 
 search_btn.addEventListener('click', () => getPokemonData(search_term.value))
-// transfer_btn.addEventListener('click', () => console.log(success))
-// // document.getElementById("pokemon-card").remove~
+
+transfer_btn.addEventListener('click', () => console.log("success"))
+// document.getElementById("pokemon-card").remove~
