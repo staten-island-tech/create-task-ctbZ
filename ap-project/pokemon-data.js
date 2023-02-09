@@ -48,3 +48,5 @@ document.querySelector("#btn-transfer").addEventListener('click', function() {
       </body>`;
   });
 // document.getElementById("pokemon-card").remove~
+
+// make trasnfer button show up a new box that asks yes or no if else function then if yes, clear html and make professor oak appear
