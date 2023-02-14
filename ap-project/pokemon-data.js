@@ -39,13 +39,11 @@ search_btn.addEventListener('click', () => getPokemonData(search_term.value))
 // transfer_btn.addEventListener('click', () => 
 // insert)
 document.querySelector("#btn-transfer").addEventListener('click', function() {
-    document.body.innerHTML = `
-      <head>
-        <title>New Page Title</title>
-      </head>
-      <body>
-        <p>New body content.<br>Inspect the head element!</p>
-      </body>`;
+    document.body.innerHTML += `
+    <div class="transfer">
+    <p>Are you sure you want to transfer this pokemon to the professor?</p>
+    </div>
+      `;
   });
 // document.getElementById("pokemon-card").remove~
 
