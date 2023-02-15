@@ -132,3 +132,16 @@ input:focus {
 #update_name, #update_candy_title{
     text-transform: capitalize;
 }
+.transfer {
+    background-color: linear-gradient(to right, #9EDA93, #22CBA8);
+}
+#box {
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    z-index: 3;
+    
+#transfer {
+    align-items: center;
+}
