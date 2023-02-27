@@ -161,3 +161,15 @@ input:focus {
         background-position: 0% 50%;
     }
 }
+
+.card-box {
+    margin: 0 auto;
+   position: fixed;
+   top: 50vh;
+   left: 50%;
+}
+.card {
+    color: white;
+    align-items: center;
+    vertical-align: middle;
+}
