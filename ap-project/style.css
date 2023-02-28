@@ -1,12 +1,13 @@
 .container-box {
-  display: flex;
-  flex: wrap;
+ text-align: center;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
 }
 
 .cell {
-  height: 30rem;
-  width: 30rem;
-  border: 2px;
-  border-color: black;
-
+  display: inline-block;
+  width: 33%;
+  height: 33%;
+  background-color: lightgray;
 }
