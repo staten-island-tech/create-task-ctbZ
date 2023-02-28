@@ -1,0 +1,12 @@
+.container-box {
+  display: flex;
+  flex: wrap;
+}
+
+.cell {
+  height: 30rem;
+  width: 30rem;
+  border: 2px;
+  border-color: black;
+
+}
