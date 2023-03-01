@@ -1,13 +1,13 @@
 .container-box {
- text-align: center;
- display: flex;
- flex-wrap: wrap;
- align-items: center;
+  justify-content: center;
 }
 
 .cell {
   display: inline-block;
   width: 33%;
   height: 33%;
-  background-color: lightgray;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
