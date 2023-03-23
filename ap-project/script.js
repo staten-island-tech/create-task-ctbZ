@@ -3,6 +3,7 @@ const message = document.querySelector("#msg")
 const startGame = [
   "", "", "", "", "", "", "", "", ""
 ]
+
 let turn = "X"
 message.textContent = "Player X goes first"
 
@@ -51,8 +52,5 @@ function checkWin() {
     return
    } 
   })
-
-  // if (!allSquares.includes(''))
-  // message.textContent = "Game Draw!"
 }
 
